@@ -33,7 +33,7 @@ This can be automated with vim-plug.
 
 .. code::
 
-  Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
+  Plug 'serhatteker/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 
 Default python version to use ``3.8`` if you want to use another version define
 environment variable ``$PYTHON_VERSION_USE`` like ``$ export PYTHON_VERSION_USE=3.9``
@@ -51,6 +51,8 @@ Then set installed `doq <https://pypi.org/project/doq/>`_ path:
 
   $ which doq
   let g:pydocstring_doq_path = path/to/doq
+  # Example
+  # let g:pydocstring_doq_path = ~/.local/bin/doq
 
 Note
 ~~~~
@@ -59,7 +61,7 @@ vim-pydocstring support Vim8.
 
 Neovim works since v2.2.0, but if something wrong, send me pull requests to fix it.
 
-If you want use old version checkout `1.0.0 <https://github.com/heavenshell/vim-pydocstring/releases/tag/1.0.0>`_
+If you want use old version checkout `1.0.0 <https://github.com/serhatteker/vim-pydocstring/releases/tag/1.0.0>`_
 
 Basic usage
 -----------
