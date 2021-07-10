@@ -1,15 +1,19 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -eu
 
-if [ ! -v $VIRTUAL_ENV ]; then
+# Are you in virtualenv
+INVENV=$(python -c 'import sys; print ("1" if hasattr(sys, "real_prefix") else "0")')
+
+if [ ! ${INVENV} ]; then
   echo "You already in virtualenv. deactivate first."
   exit 1
 fi
 
-LIBDIR=$(cd $(dirname $0); pwd)
+PYTHON_VERSION="${PYTHON_VERSION_USE:-3.8}"
+PYTHON_BIN=$(which python${PYTHON_VERSION})
+PYTHON=${PYTHON_BIN}
 
-python3 -m venv ${LIBDIR}/venv
-$LIBDIR/venv/bin/pip3 install -U pip
-$LIBDIR/venv/bin/pip3 install doq
-ln -sfn "${LIBDIR}/venv/bin/doq" "${LIBDIR}/doq"
+${PYTHON} -m pip install --user doq
+
+exit 0
