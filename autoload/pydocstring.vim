@@ -1,6 +1,6 @@
 " Insert Docstring.
-" Author:      Shinya Ohyanagi <sohyanagi@gmail.com>
-" WebPage:     http://github.com/heavenshell/vim-pydocstriong/
+" Author:      Author: Serhat Teker <me@serhatteker.com>
+" WebPage:     http://github.com/SerhatTeker/vim-pydocstriong/
 " Description: Generate Python docstring to your Python script file.
 " License:     BSD, see LICENSE for more details.
 " NOTE:        This module is heavily inspired by php-doc.vim and

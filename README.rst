@@ -1,8 +1,8 @@
 vim-pydocstring
 ===============
 
-.. image:: https://github.com/heavenshell/vim-pydocstring/workflows/build/badge.svg?branch=master
-  :target: https://github.com/heavenshell/vim-pydocstring
+.. image:: https://github.com/SerhatTeker/vim-pydocstring/workflows/build/badge.svg?branch=master
+  :target: https://github.com/SerhatTeker/vim-pydocstring
 
 .. image:: ./assets/vim-pydocstring.gif
 
@@ -117,7 +117,7 @@ You can set built-in formatter(Sphinx, Numpy, Google).
 Custom template
 ---------------
 
-You can set custom template. See `example <https://github.com/heavenshell/py-doq/tree/master/examples>`_.
+You can set custom template. See `example <https://github.com/SerhatTeker/py-doq/tree/master/examples>`_.
 
 .. code::
 

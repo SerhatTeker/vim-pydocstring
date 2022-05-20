@@ -1,9 +1,9 @@
-" File:     pydocstring.vim
-" Author:   Shinya Ohyanagi <sohyanagi@gmail.com>
-" Version:  2.5.0
-" WebPage:  http://github.com/heavenshell/vim-pydocstriong/
-" Description: Generate Python docstring to your Python script file.
-" License: BSD, see LICENSE for more details.
+" File:         pydocstring.vim
+" Author:       Author: Serhat Teker <me@serhatteker.com>
+" Version:      2.6.0
+" WebPage:      http://github.com/SerhatTeker/vim-pydocstriong/
+" Description:  Generate Python docstring to your Python script file.
+" License:      BSD, see LICENSE for more details.
 
 let s:save_cpo = &cpo
 set cpo&vim
